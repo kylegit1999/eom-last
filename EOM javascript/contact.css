@@ -1,0 +1,120 @@
+.form {
+    margin-top: 400px;
+}
+
+.foto {
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+li {
+    display: inline;
+    display: inline-block;
+    line-height: 64px;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #001f64;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+body div #contact h2 {
+    line-height: none;
+    margin: -5px 0 0;
+    padding: 0 0 30px;
+}
+
+body div #contact div div {
+    float: left;
+    padding: 49px 0 0;
+    width: 300px;
+}
+
+body div #contact div div ul {
+    list-style: none;
+    margin: 0;
+    padding: 11px 0 0;
+}
+
+body div #contact div div ul li {
+    border-top: 1px solid #eff0f3;
+    padding: 13px 0;
+}
+
+body div #contact div div ul li span {
+    display: block;
+    text-align: center;
+    font-family: 'arvoregular';
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+body div #contact div div ul li:first-child {
+    border: none;
+}
+
+body div #contact div form {
+    float: left;
+    margin: 50px 0 0;
+    padding: 20px;
+    max-width: 340px;
+}
+
+body div #contact div form label input {
+    border: none;
+    color: whitesmoke;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin: 10px 0;
+    width: 340px;
+    text-align: center;
+}
+
+body div #contact div form label textarea {
+    border: none;
+    color: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 275px;
+    margin: 10px 0;
+    overflow: auto;
+    resize: none;
+    width: 340px;
+    text-align: center;
+}
+
+body div #contact div form h3 {
+    padding: 0 0 25px;
+}
+
+body div #contact div form input.send {
+    background: rgb(248, 246, 246);
+    border: none;
+    border-radius: 3px;
+    color: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    margin: 5px 0 0;
+    padding: 0 0 1px;
+    width: 60px;
+    text-align: center;
+}
+
+body div #contact div form input.send:hover {
+    background: #111111;
+    color: #dadbdd;
+}
